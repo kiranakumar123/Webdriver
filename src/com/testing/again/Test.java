@@ -102,9 +102,10 @@ public class Test
 			}
 		});
 		Proxy proxy = new Proxy();
-		proxy.setHttpProxy("www.us.oracle.com:8080");
+		//proxy.setHttpProxy("www.us.oracle.com:8080");
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.PROXY, proxy);
+		
 		//driver.quit();
 	}
 	
